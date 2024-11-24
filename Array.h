@@ -56,5 +56,6 @@ public:
 	~Array()
 	{
 		count--;
+		delete[] array;
 	}
 };
