@@ -21,10 +21,10 @@ int main()
 		switch (choise)
 		{
 		case SIN_STR:
-			mas = mas->sin_str(mas, size);
+			mas = mas->sin_str(size);
 			break;
 		case PRINT:
-			mas->print(mas, size);
+			mas->print(size);
 			break;
 		case COUNT_STRING:
 			printf("Кол-во массивов: %d\n", mas->get_count());

@@ -46,10 +46,15 @@ public:
 	}
 
 
-	Array* sin_str(Array* str_mas, int& size);
-	void print(Array* str_mas, int& size);
+	Array* sin_str(int& size);
+	void print(int& size);
 	static int get_count()
 	{
 		return count;
+	}
+
+	~Array()
+	{
+		count--;
 	}
 };
